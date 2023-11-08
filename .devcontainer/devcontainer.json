@@ -1,6 +1,8 @@
 {
     "name": "myjulia",
-    "image": "okamumu/julia:1.8.3-arduino",
+    "build": {
+        "dockerfile": "../Dockerfile"
+    },
     "customizations": {
         "vscode": {
             "extensions": [
