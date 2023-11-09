@@ -22,6 +22,7 @@ include("predefined_blocks/RampBlock.jl")
 include("predefined_blocks/PulseGeneratorBlock.jl")
 include("predefined_blocks/SaturationBlock.jl")
 include("predefined_blocks/QuantizerBlock.jl")
+include("predefined_blocks/SaturationDynamicBlock.jl")
 
 include("predefined_blocks/InBlock.jl")
 include("predefined_blocks/OutBlock.jl")
